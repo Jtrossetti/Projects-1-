@@ -1,0 +1,28 @@
+# Programmers: Jakob Rossetti
+# Course:  CS151, Professor Franceshci
+# Date: 09/19/2017
+# Project Assignment:  1
+# Problem Statement: To calculate the average of 10 test scores
+# Data In: Multiple Test Grade
+# Data Out: A calculated test average
+# Other files needed: Class Powerpoints
+# Credits: Class Powerpoint
+
+print("This program will calculate test averages for students.")
+
+testscore1 = int(input("What is their first test score?"))
+testscore2 = int(input("What is their second test score?"))
+testscore3 = int(input("What is their third test score?"))
+testscore4 = int(input("What is their fourth test score?"))
+testscore5 = int(input("What is their fifth test score?"))
+testscore6 = int(input("What is their sixth test score"))
+testscore7 = int(input("What is their seventh test score"))
+testscore8 = int(input("What is their eighth test score"))
+testscore9 = int(input("What is their ninth test score"))
+testscore10 = int(input("What is their tenth test score"))
+
+
+gradaverage = ((testscore1 + testscore2 + testscore3 + testscore4 + testscore5 + testscore6 + testscore7 + testscore8 + testscore9 + testscore10) / 10)
+
+
+print("The student's test average score is: ",gradaverage,"%")
